@@ -1,14 +1,14 @@
 [workspace]
 resolver = "3"
 members = [
-    "crate/rgpui-term",
+    "crates/rgpui-term",
     "examples/basic",
     "examples/component-integration"
 ]
 
 
 [workspace.dependencies]
-rgpui-term = {path = "crate/rgpui-term", version = "0.1.0"}
+rgpui-term = {path = "crates/rgpui-term", version = "0.1.0"}
 
 rgpui = "0.1"
 rgpui-platform = "0.1.0"
