@@ -10,8 +10,8 @@ members = [
 [workspace.dependencies]
 rgpui-term = {path = "crates/rgpui-term", version = "0.1.0"}
 
-rgpui = "0.1"
-rgpui-platform = "0.1.0"
+rgpui = ">=0.1, <1.0"
+rgpui-platform = ">=0.1, <1.0"
 
 alacritty_terminal = "0.25"
 portable-pty = "0.9"
