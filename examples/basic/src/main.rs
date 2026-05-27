@@ -1153,12 +1153,14 @@ impl AgentTermApp {
                 offset: point(px(0.0), px(18.0)),
                 blur_radius: px(45.0),
                 spread_radius: px(0.0),
+                inset: false,
             },
             BoxShadow {
                 color: hsla(0., 0., 0., 0.15),
                 offset: point(px(0.0), px(6.0)),
                 blur_radius: px(18.0),
                 spread_radius: px(0.0),
+                inset: false,
             },
         ]
     }
